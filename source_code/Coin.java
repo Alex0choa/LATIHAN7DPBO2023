@@ -50,7 +50,7 @@ public class Coin extends GameObject
         height = 30;
         
         // set object with image
-        Image image = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/assets/upi-logo.png"));
+        Image image = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/assets/coin.png"));
         object.drawImage(image, x, y, width, height, null);
 
     }
